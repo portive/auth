@@ -68,7 +68,7 @@ type ExpiresIn = JWT.SignOptions["expiresIn"]
  *
  * Probably okay to merge this into `generateAuth` later.
  */
-export function _generateAuthToken(
+export function _createAuthToken(
   claims: AuthPrivateClaims,
   {
     keyId,
@@ -98,10 +98,10 @@ type AuthOptions = AuthPrivateClaims & { expiresIn: ExpiresIn }
  * Takes an apiKey (which includes the `keyId` and `secretKey`) and a set of
  * PermitOptions and then generates a permit from it.
  */
-export function generateAuthToken(
+export function createAuthToken(
   apiKey: string,
   { expiresIn, ...claims }: AuthOptions // PermitPrivateClaims & { expiresIn: ExpiresIn }
 ) {
   const { keyId, secretKey } = parseApiKey(apiKey)
-  return _generateAuthToken(claims, { keyId, secretKey, expiresIn })
+  return _createAuthToken(claims, { keyId, secretKey, expiresIn })
 }
