@@ -1,6 +1,6 @@
 {
   "name": "@portive/auth",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "Sunny Hirai <thesunny@gmail.com>",
   "files": [
@@ -60,7 +60,7 @@
     "build:mjs": "tsc -p tsconfig.build-mjs.json",
     "-- publish npm": "# publish npm package",
     "publish:npm": "yarn build:once && yarn publish || yarn publish:first",
-    "publish:npm:patch": "yarn build:npm:once && yarn version --patch && yarn publish --non-interactive || yarn publish:first",
+    "publish:npm:patch": "yarn build:once && yarn version --patch && yarn publish --non-interactive || yarn publish:first",
     "publish:first": "echo 'IMPORTANT INSTRUCTIONS: This is first publish so please use:\n\n\"npm publish --access=public\"'",
     "-- end": "# end"
   }
