@@ -306,6 +306,15 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@forcloud/jwt-utils@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@forcloud/jwt-utils/-/jwt-utils-1.0.5.tgz#dcb67d45e5a7c378aacb801014eca38e41afb5ac"
+  integrity sha512-ivtVkqLcH2sl4YsRt+9E0E14tKJVsPHHZ2NLCIJ8XSepJYfk0mf8ytWvDZciB/t/RQipdBZWr4vI+q1budLJsg==
+  dependencies:
+    crypto-js "^4.1.1"
+    jsonwebtoken "^8.5.1"
+    superstruct "^0.15.4"
+
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.9.5.tgz#2cbaf9a89460da24b5ca6531b8bbfc23e1df50c7"
@@ -580,15 +589,6 @@
   integrity sha512-kuM4UNiZgam5m37OUZt2lSdmsp2a5Ms5s8TVNTcyYmSv5IX6v+jpXgMLrOkAVFy+GlAUCaCqCJW28id/xOGYdg==
   dependencies:
     "@thesunny/assert-type" "^0.1.7"
-    superstruct "^0.15.4"
-
-"@portive/jwt-utils@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@portive/jwt-utils/-/jwt-utils-1.0.2.tgz#f439730ba7ae510c464a103c9f03652156ba7ca1"
-  integrity sha512-WBR5hqkzzFCn4GaNRuZ3O2cT2R3HbPqp8V6WmGPmFc940lP8XytuEiGU3o83mH3IawmMNAa13mxS01MrZTqMDA==
-  dependencies:
-    crypto-js "^4.1.1"
-    jsonwebtoken "^8.5.1"
     superstruct "^0.15.4"
 
 "@sinonjs/commons@^1.7.0":

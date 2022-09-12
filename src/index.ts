@@ -1,4 +1,4 @@
-import { signJWT } from "@portive/jwt-utils"
+import { signJWT } from "@forcloud/jwt-utils"
 import {
   AuthHeaderStruct,
   AuthPayloadStruct,
