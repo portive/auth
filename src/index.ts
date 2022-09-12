@@ -3,7 +3,7 @@ import {
   AuthHeaderStruct,
   AuthPayloadStruct,
   AuthPrivateClaims,
-} from "@portive/api-types"
+} from "@forcloud/api-types"
 import JWT from "jsonwebtoken"
 
 /**
