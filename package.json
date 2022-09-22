@@ -1,6 +1,6 @@
 {
-  "name": "@forcloud/auth",
-  "version": "1.0.5",
+  "name": "@portive/auth",
+  "version": "1.0.6",
   "license": "MIT",
   "author": "Sunny Hirai <thesunny@gmail.com>",
   "files": [
@@ -28,8 +28,8 @@
     "typescript": "^4.7.3"
   },
   "dependencies": {
-    "@forcloud/api-types": "^7.2.1",
-    "@forcloud/jwt-utils": "^1.0.5",
+    "@portive/api-types": "^7.2.1",
+    "@portive/jwt-utils": "^1.0.5",
     "@types/jsonwebtoken": "^8.5.8",
     "jsonwebtoken": "^8.5.1"
   },
