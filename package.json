@@ -1,6 +1,11 @@
 {
   "name": "@portive/auth",
   "version": "1.0.6",
+  "description": "A library to help generate auth tokens for use with Portive",
+  "keywords": [
+    "portive",
+    "auth token"
+  ],
   "license": "MIT",
   "author": "Sunny Hirai <thesunny@gmail.com>",
   "files": [

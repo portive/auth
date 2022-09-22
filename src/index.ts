@@ -1,9 +1,9 @@
-import { signJWT } from "@forcloud/jwt-utils"
+import { signJWT } from "@portive/jwt-utils"
 import {
   AuthHeaderStruct,
   AuthPayloadStruct,
   AuthPrivateClaims,
-} from "@forcloud/api-types"
+} from "@portive/api-types"
 import JWT from "jsonwebtoken"
 
 /**

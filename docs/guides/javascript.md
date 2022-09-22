@@ -3,15 +3,15 @@
 To create an `authToken`:
 
 ```ts
-import { createAuthToken } from "@forcloud/auth"
+import { createAuthToken } from "@portive/auth"
 
-const authToken = createAuthToken(process.env.FORCLOUD_API_KEY, {
+const authToken = createAuthToken(process.env.PORTIVE_API_KEY, {
   path: "articles/123", // sub-folder to upload in
   expiresIn: "1d", // expires in 1 day
 })
 ```
 
-Where `process.env.FORCLOUD_API_KEY` is from https://admin.forcloud.com. In this example, the value could be found in the environment. You can use a library like [dotenv](https://www.npmjs.com/package/dotenv) to manage your environment variables.
+Where `process.env.PORTIVE_API_KEY` is from https://admin.portive.com. In this example, the value could be found in the environment. You can use a library like [dotenv](https://www.npmjs.com/package/dotenv) to manage your environment variables.
 
 ## Suggested Practices
 
