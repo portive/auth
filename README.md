@@ -1,6 +1,6 @@
 # @portive/auth
 
-This library helps generate JWT auth tokens for use with Portive.
+A library to help generate auth tokens for use with Portive's cloud services for open source components
 
 There are two ways to use Portive:
 
