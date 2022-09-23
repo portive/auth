@@ -574,7 +574,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@portive/api-types@^7.2.1":
+"@portive/api-types@^7.2.4":
   version "7.2.4"
   resolved "https://registry.yarnpkg.com/@portive/api-types/-/api-types-7.2.4.tgz#9d5c0b076c04a457015b5be797fc1b341e3b4c66"
   integrity sha512-cle0CrPEtfyRBCfMQ+QvGRAS9aYrD5J1iGEZehNfEv6PiZXYI9E3my0y4mZAhBmkldCwtf17sHYXSJ/sKJXmbA==
@@ -582,7 +582,7 @@
     "@thesunny/assert-type" "^0.1.7"
     superstruct "^0.15.4"
 
-"@portive/jwt-utils@^1.0.5":
+"@portive/jwt-utils@^1.0.7":
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/@portive/jwt-utils/-/jwt-utils-1.0.7.tgz#744c7e28d5ab27ee83667e7060135e22a12ced40"
   integrity sha512-qtbPKzpv5iojFbqT8dBHUAEvmTsDTwUzzw73OCGIWzxJ4t3ezG0flo+U2TqaKRc7rTA4Rexw8rXT1+kbkXqRzg==
