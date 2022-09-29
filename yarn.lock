@@ -574,12 +574,12 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@portive/api-types@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@portive/api-types/-/api-types-8.0.0.tgz#dcf1a329b18504c8ef585265337d2b29e32b9779"
-  integrity sha512-zMeZJXekWdFAAMkuJ18xfsJsWjIi/fefpeqL6umXPkQslXBq/jdkxrd+PnIPLYOGh0CtABwvt+JSswHcFDRD6A==
+"@portive/api-types@^8.0.1":
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/@portive/api-types/-/api-types-8.0.1.tgz#e4732bf6825d7329bd1205163525cfab28685581"
+  integrity sha512-tq0ri7XK6A8Qkrkmy/QkmS7nuKQjlktbtHnFDC73tPLXhND0OyDa10KcPH44rBw4mt0qWFJAXB1QcC/d3laTSQ==
   dependencies:
-    "@thesunny/assert-type" "^0.1.7"
+    "@thesunny/assert-type" "^0.1.13"
     superstruct "^0.15.4"
 
 "@portive/jwt-utils@^1.0.7":
@@ -605,12 +605,12 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@thesunny/assert-type@^0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@thesunny/assert-type/-/assert-type-0.1.7.tgz#c68cb8432da8baa81c9f5e0acbdfceebb8add5de"
-  integrity sha512-QmE7FgpAPD/vhRDRPlS8bmyOV+7mwQgJn6D+4p2qVn3mXzo0yHohiAjDBNCH/fDhR8aqxtBBVdEp+tJfd/4i3A==
+"@thesunny/assert-type@^0.1.13":
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@thesunny/assert-type/-/assert-type-0.1.13.tgz#d893351218cfa044329f8f2d5a5f8188d1698bf1"
+  integrity sha512-9uz7HcY7n+SdTCQvTy5e24pCn9oBge5XnnSWCYuXC9PUx+/TwjU4KpjqswdowVZUJ58URWXqLwpfok8GrkeREw==
   dependencies:
-    ts-node "^10.4.0"
+    ts-node "^10.9.1"
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -3540,10 +3540,10 @@ ts-jest@^27:
     semver "7.x"
     yargs-parser "20.x"
 
-ts-node@^10.4.0:
-  version "10.9.1"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.9.1.tgz#e73de9102958af9e1f0b168a6ff320e25adcff4b"
-  integrity sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==
+ts-node@^10.8.1:
+  version "10.8.1"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.8.1.tgz#ea2bd3459011b52699d7e88daa55a45a1af4f066"
+  integrity sha512-Wwsnao4DQoJsN034wePSg5nZiw4YKXf56mPIAeD6wVmiv+RytNSWqc2f3fKvcUoV+Yn2+yocD71VOfQHbmVX4g==
   dependencies:
     "@cspotcode/source-map-support" "^0.8.0"
     "@tsconfig/node10" "^1.0.7"
@@ -3559,10 +3559,10 @@ ts-node@^10.4.0:
     v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
 
-ts-node@^10.8.1:
-  version "10.8.1"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.8.1.tgz#ea2bd3459011b52699d7e88daa55a45a1af4f066"
-  integrity sha512-Wwsnao4DQoJsN034wePSg5nZiw4YKXf56mPIAeD6wVmiv+RytNSWqc2f3fKvcUoV+Yn2+yocD71VOfQHbmVX4g==
+ts-node@^10.9.1:
+  version "10.9.1"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.9.1.tgz#e73de9102958af9e1f0b168a6ff320e25adcff4b"
+  integrity sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==
   dependencies:
     "@cspotcode/source-map-support" "^0.8.0"
     "@tsconfig/node10" "^1.0.7"
