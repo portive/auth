@@ -4,14 +4,10 @@
 
 ## Guides
 
-- [Quick Start](guides/quick-start.md)
-- [Next.js](guides/next.md)
+- [Getting Started with Next.js](guides/next.md)
+- [Best Practices](guides/best-practices.md)
 
-## Coming Soon Guides
+## References
 
-- [JavaScript/TypeScript](guides/coming-soon.md)
-- [Vue](guides/coming-soon.md)
-- [Ruby on Rails](guides/coming-soon.md)
-- [PHP](guides/coming-soon.md)
-
-## Reference
+- [Auth Token](reference/auth-token.md)
+- [API Key](reference/api-key.md)
