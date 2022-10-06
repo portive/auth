@@ -1,6 +1,6 @@
 {
   "name": "@portive/auth",
-  "version": "8.0.1",
+  "version": "9.0.0",
   "description": "A library to help generate auth tokens for use with Portive's cloud services for open source components",
   "keywords": [
     "portive",
