@@ -16,7 +16,7 @@ const createAuthToken = (apiKey: string, {
 }) => string
 ```
 
-The `createAuthToken` method takes an `apiKey` and a set of options and returns an `authToken`. The `authToken` is in the form of a JSON Web Token and is signed using the [`secretKey`](./api-key.md#secret-key) part of the API Token
+The `createAuthToken` method takes an `apiKey` and a set of options and returns an `authToken`. The `authToken` is in the form of a JSON Web Token and is signed using the [`secretKey`](./api-key.md#secret-key) part of the API Token.
 
 #### Options
 
