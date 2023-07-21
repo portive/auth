@@ -109,6 +109,7 @@ describe("api-client", () => {
       const permit = createAuthToken(API_KEY, {
         path: "**/*",
         expiresIn: "1d",
+        tags: ["tag1", "tag2"],
       })
       const complete = JWT.verify(permit, SECRET_KEY, { complete: true })
       expect(complete).toEqual({
@@ -117,6 +118,7 @@ describe("api-client", () => {
           path: "**/*",
           iat: expect.any(Number),
           exp: expect.any(Number),
+          tags: ["tag1", "tag2"],
         },
         signature: expect.any(String),
       })
